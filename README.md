@@ -30,7 +30,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 Make sure that this is a one-way operation.Can't revert back once ejected
 If not satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-## Project Info
+## A Breif to Project Info
 
 At the start **index.js** communicates with **App.js** through it **profile.js** is processed in which data from Github API is fetched based on the username entered in the input,
 when the button is clicked.
