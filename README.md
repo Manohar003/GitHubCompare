@@ -29,7 +29,7 @@ If not satisfied with the build tool and configuration choices, you can eject at
 
 ## Project Config
 
-At the start **index.js** calls the function **App.js*** through it **profile.js** is processed in which data from github api is fetched based on the username entered in the input,
+At the start **index.js** calls the function **App.js** through it **profile.js** is processed in which data from github api is fetched based on the username entered in the input,
 when the button is clicked.
 Now as a centralized store called **redux** on the basis of the action type and payload data will be stored in the store using root-reducer.Here in the store localstorage is used
 to make data persistent.As a result or ouput github profiles with the info is presented in the form of card and is sorted based on followers.
