@@ -4,6 +4,9 @@
 
 This project was bootstrapped with **create-react-app.**
 
+## Deployed to Heroku
+Link: https://ghubcompare.herokuapp.com/
+
 ## Available Scripts
 
 To get the  packages and their dependencies required for the project run **npm install**
@@ -27,10 +30,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 Make sure that this is a one-way operation.Can't revert back once ejected
 If not satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-## Project Config
+## Project Info
 
-At the start **index.js** calls the function **App.js** through it **profile.js** is processed in which data from github api is fetched based on the username entered in the input,
+At the start **index.js** communicates with **App.js** through it **profile.js** is processed in which data from Github API is fetched based on the username entered in the input,
 when the button is clicked.
-Now as a centralized store called **redux** on the basis of the action type and payload data will be stored in the store using root-reducer.Here in the store localstorage is used
+Now as a centralized store called **redux** on the basis of the action type and payload, data will be stored in the store(redux) using root-reducer.Here in the store localstorage is used
 to make data persistent.As a result or ouput github profiles with the info is presented in the form of card and is sorted based on followers.
+
 
